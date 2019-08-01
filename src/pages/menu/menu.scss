@@ -1,0 +1,33 @@
+.logo {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    background-color: rgb(118, 117, 245);
+}
+
+.link {
+    height: 47px;
+    width: 100%;
+    line-height: 47px;
+    display: block;
+    padding-left: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    span {
+        margin-left: 10px;
+        color: #5A5D65;
+    }
+
+    i {
+        position: relative;
+        top: -1px;
+    }
+}
+
+.active,
+.link:hover {
+    background-color: rgb(243, 241, 250);
+}

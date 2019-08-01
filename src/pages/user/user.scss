@@ -1,0 +1,116 @@
+.user {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-left: 300px;
+}
+
+.card {
+    box-shadow: 6px 11px 41px -28px #a99de7;
+    border-radius: 16px;
+    background: #fff;
+    padding: 20px 30px;
+}
+
+.userinfo {
+    width: 270px;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.title {
+    margin-bottom: 50px;
+
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+
+    div {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+
+        p {
+            font-size: 24px;
+            color: #222222;
+            font-weight: 500;
+            line-height: 1.2;
+            position: relative;
+            top: 15px;
+        }
+
+        span {
+            color: #8898aa;
+            font-size: 14px;
+            position: relative;
+            top: 20px;
+        }
+    }
+}
+
+.btn {
+    width: 170px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #fff;
+    transition: color 0.15s ease-in-out, 
+    background-color 0.15s ease-in-out, 
+    border-color 0.15s ease-in-out, 
+    box-shadow 0.15s ease-in-out;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+}
+
+.logout {
+    background-color: #ff5e5e;
+    border-color: #ff5e5e;
+}
+
+.password {
+    background-color: #7571f9;
+    border-color: #7571f9;
+}
+
+.account {
+    background-color: #f29d56;
+    border-color: #f29d56;
+}
+
+.log {
+    background-color: #6fd96f;
+    border-color: #6fd96f;
+}
+
+.userContact {
+    margin-top: 50px;
+    .input {
+        margin-bottom: 10px;
+        span {
+            font-weight: bolder;
+            color: #464A50;
+            font-size: 16px;
+            margin-right: 20px;
+        }
+    
+        input {
+            outline: none;
+            background: none;
+            color: #76838f;
+            font-size: 14px;
+            width: 150px;
+            border: none;
+        }
+    }
+}
