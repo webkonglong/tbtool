@@ -5,12 +5,13 @@ import classs from 'classnames'
 
 import Log from './module/log.jsx'
 import SetPassword from './module/set_password.jsx'
+import Account from './module/account.jsx'
 
 class User extends Component {
   state = {
 		phone: '',
 		email: '',
-		index: 1
+		index: 2
 	}
 	
 	change (name, e) {
@@ -78,8 +79,10 @@ class User extends Component {
 							</div>
 						</div>
         </div>
-        <div className={classs(styles.card, styles.info)}>
-          {[<Log />, <SetPassword />][this.state.index]}
+        <div 
+					className={classs(this.state.index !== 2 && styles.card, styles.info)}
+				>
+					{[<Log />, <SetPassword />, <Account />][this.state.index]}
         </div>
       </div>
     );

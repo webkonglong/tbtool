@@ -40,7 +40,7 @@ class SetPassword extends Component {
 							placeholder="重复新密码"
 						/>
 					</div>
-					<div className={styles.btn} onClick={this.sub.bind(this)}>确认</div>
+					<div className={styles.btn} onClick={this.sub.bind(this)}>确认修改</div>
 				</div>
       </div>
     );
