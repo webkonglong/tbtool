@@ -28,4 +28,12 @@
 	@include icon(22px, 22px, (toggle), null);
 	// menu icon
 	@include icon(15px, 15px, (data, ad, finance, user), null);
+
+	// phone icon
+	@include icon(10px, 10px, (qoe), null);
+	@include icon(8px, 8px, (wifi), null);
+	@include icon(6px, 6px, (signal), null);
+	@include icon(16px, 16px, (more), null);
+	@include icon(14px, 14px, (close), null);
+	@include icon(40px, 40px, (red), null);
 }

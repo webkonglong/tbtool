@@ -9,6 +9,7 @@ import Menu from '@/pages/menu'
 
 import Home from '@/pages/home'
 import User from '@/pages/user'
+import Ad from '@/pages/ad'
 
 class Router extends Component {
   state = {
@@ -34,6 +35,7 @@ class Router extends Component {
         </div>
         <div className="app-body">
           <Switch>
+            <Route exact path="/ad" component={Ad} />
             <Route exact path="/user" component={User} />
             <Route exact path="/" component={Home} />
           </Switch>

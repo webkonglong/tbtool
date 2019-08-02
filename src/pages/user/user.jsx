@@ -29,7 +29,7 @@ class User extends Component {
   render() {
     return (
       <div className={styles.user}>
-        <div className={classs(styles.card, styles.userinfo)}>
+        <div className={classs(styles.userinfo, "crad")}>
             <div className={styles.title}>
                 <img src="http://demo.cssmoban.com/cssthemes6/fish_29_quixlab/images/avatar/11.png" alt=""/>
                 <div>
@@ -80,7 +80,7 @@ class User extends Component {
 						</div>
         </div>
         <div 
-					className={classs(this.state.index !== 2 && styles.card, styles.info)}
+					className={classs(styles.info, this.state.index !== 2 && "crad")}
 				>
 					{[<Log />, <SetPassword />, <Account />][this.state.index]}
         </div>

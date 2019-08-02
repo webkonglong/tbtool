@@ -43,7 +43,7 @@ class Account extends Component {
   render() {
     return (
       <div className={styles.account}>
-        <div className={classs(styles.top, styles.crad)}>
+        <div className={classs(styles.top, "crad")}>
           {this.state.accounts.map(item => (
             <div key={item.name}>
               <span>用户名: 子账户{item.name}</span>
@@ -53,7 +53,7 @@ class Account extends Component {
             </div>
           ))}
         </div>
-        <div className={classs(styles.bottom, styles.crad)}>
+        <div className={classs(styles.bottom, "crad")}>
           <div className={styles.body}>
             <p>最多设置5个子账户</p>
             <div className={styles.input}>用户名: 子账户{this.state.name}</div>
