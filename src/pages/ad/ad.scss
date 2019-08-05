@@ -32,6 +32,8 @@
   .left {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   .right {
@@ -195,6 +197,77 @@
 
 .pic {
   float: right;
+}
+
+.createAd {
+  .input {
+    margin-bottom: 20px;
+  }
+
+  .inputs {
+    margin-bottom: 20px;
+  }
+
+  .input input,
+  .inputs input {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #f5f5f5;
+    padding-left: 0;
+    color: #7A88A1;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .input input {
+    width: 100%;
+  }
+  .inputs input {
+    width: 50%;
+  }
+}
+
+.createAd .file {
+  width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5 !important;
+  position: relative;
+  margin-bottom: 30px;
+  cursor: pointer;
+
+  input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+  }
+  z-index: 2;
+  text-align: center;
+  color: #7A88A1;
+}
+
+
+.createAd .btn {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  line-height: 50px;
+  height: 50px;
+  border-radius: 4px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgb(118, 117, 245);
+  cursor: pointer;
+  width: 100%;
 }
 
 
