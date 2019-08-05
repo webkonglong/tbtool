@@ -1,0 +1,26 @@
+.data {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mountNode {
+  width: 100%;
+  height: 100%;
+}
+
+.cycle {
+  color: #464a53;
+  float: right;
+  position: relative;
+  z-index: 1;
+
+  span {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}
+
+.cycle .active {
+  color: rgb(118, 117, 245)
+}

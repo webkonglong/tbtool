@@ -10,6 +10,8 @@ import Menu from '@/pages/menu'
 import Home from '@/pages/home'
 import User from '@/pages/user'
 import Ad from '@/pages/ad'
+import Finance from '@/pages/finance'
+import Data from '@/pages/data'
 
 class Router extends Component {
   state = {
@@ -35,6 +37,8 @@ class Router extends Component {
         </div>
         <div className="app-body">
           <Switch>
+            <Route exact path="/data" component={Data} />
+            <Route exact path="/finance" component={Finance} />
             <Route exact path="/ad" component={Ad} />
             <Route exact path="/user" component={User} />
             <Route exact path="/" component={Home} />
